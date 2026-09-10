@@ -101,11 +101,12 @@ ans2 = st.text_input(
 )
 ans3 = st.text_input(
     "ข้อ 3: it is a red fruit `s _ _ a w b e _ r y`. 🍓",
-    value=st.session_state.ans1_val,
+    value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
     "ข้อ 4: can take photos with it `p _ o _ e`. 📱",
-    value=st.session_state.ans2_val,
+    value=st.session_state.ans4_val,
+)
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
